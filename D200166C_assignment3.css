@@ -1,0 +1,277 @@
+.navbar-collapse {
+    justify-content: flex-end;
+  
+}
+
+.nav-link{
+    color: grey;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: grey;
+    
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background:white;
+    
+}
+
+.nitem button{
+    border-style: none;
+    background-color: white;
+    border-radius: 50%;
+    padding: 7px 7px 3px 7px;
+    margin-top: 3px;
+    outline: none;
+    color: grey;
+   
+    
+}
+
+.nitem button:hover{
+    background-color:#f2f6e9 ;
+}
+.topnav{
+    display: flex;
+    justify-content: flex-end;
+}
+.imageheader{
+    text-align: center;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 30px;
+    width: 100%;
+    
+    
+}
+  
+.icon {
+    padding: 15px;
+    color: gray;
+    min-width: 50px;
+    text-align: center;
+    
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 60px;
+    -webkit-box-shadow: 1px 1px 4px gray;
+    -moz-box-shadow: 1px 1px 4px gray;
+    box-shadow: 1px 1px 4px gray;
+    border: none;
+    outline: none;
+    
+    
+}
+
+
+
+.mic{
+    padding-top: 13px;  
+    position: absolute;
+    right: 20px;
+    
+}
+
+
+  .team .card {
+    background:none;
+  
+  
+}
+
+
+.round{
+    background: rgb(240, 237, 237);
+    border-radius: 100%;
+    width:50px;
+    height:50px;
+    padding: 15px;
+    
+    
+}
+
+.webicon{
+    text-align: center;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+   position: relative;
+   bottom: 5px;
+   right: 2px;
+}
+
+
+
+.card-title{
+    font-size: small;
+    
+    margin: 0;
+    
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+
+.card{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 130px;
+    
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+    width: fit-content;
+    
+    
+   
+}
+
+.card:hover{
+    background: rgba(219, 218, 218, 0.849);
+
+}
+
+
+
+.container{
+    display: block;
+    
+    
+    width: 50%;
+    text-align: center;
+    
+    
+
+}
+
+.customize{
+    display: flex;
+    justify-content: flex-end;
+    outline: none;
+    
+
+}
+
+.createbutton{
+    position:absolute;
+    bottom:15px;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 1px 4px gray !important;
+    -moz-box-shadow: 1px 1px 4px gray !important;
+    box-shadow: 1px 1px 4px gray !important;
+    border: none;
+    outline: none !important;
+    width: 120px;
+    height: 30px;
+    right: 30px;
+    padding-left: 30px;
+    background-color: white;
+    font-size: small;
+    color: blue;
+    
+}
+
+.customize:hover{
+    background-color: ghostwhite;
+}
+
+.create{
+    position:absolute;
+    bottom:20px;
+    z-index: 3;
+    right: 110px;
+    color: blue;
+    font-size: 17px!important;
+
+}
+
+@media screen and (max-width: 700px){
+    
+    .card{
+        width: min-content;
+    }
+
+    .container{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    .createbutton{
+        display: none;
+    }
+    .create{
+        right: 5px;
+        border-radius: 50%;
+        -webkit-box-shadow: 1px 1px 4px gray !important;
+        -moz-box-shadow: 1px 1px 4px gray !important;
+        box-shadow: 1px 1px 4px gray !important;
+        padding: 10px;
+        font-size: 15px!important;
+    }
+   
+
+    
+
+}
+
+@media screen and (min-width: 980px){
+    .container{
+        margin-left: 33%;
+       
+    }
+   
+}
+
+@media screen and (min-width：700px){
+    .card{
+        width: fit-content;
+    }
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
